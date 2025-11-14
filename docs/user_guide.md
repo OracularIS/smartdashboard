@@ -11,7 +11,9 @@
 
 ## Customizing Dashboards
 - Resize and rearrange widgets via drag-and-drop.
+![Data Management](./attachments/resize1.png)
 - Change chart types using the widget menu.
+![Data Management](./attachments/resize2.png)
 - Apply filters or slicers for deeper insight.
 - Save multiple dashboard versions for testing.
 
@@ -19,8 +21,11 @@
 
 ## Using TV View
 1. Open the desired dashboard.
+![Data Management](./attachments/tv1.png)
 2. Click **“TV View”**.
+![Data Management](./attachments/tv2.png)
 3. Set auto-rotation timing between pages.
+![Data Management](./attachments/tv3.png)
 4. Enable full-screen display for continuous monitoring.
 
 ---

@@ -14,14 +14,19 @@ Before installing Smart Dashboard, ensure the following:
 2. Navigate to the **Smart Dashboard** module.
 3. Select **Create New Dashboard Environment**.
 4. Configure tenant details (if multi-tenant access is enabled).
+![Tenant](./attachments/Tenant.png)
 5. Upload your initial dataset or connect to a data source.
-
+![Tenant](./attachments/data1.png)
+![Tenant](./attachments/data2.png)
 ---
 
 ## Configuration
 - **User Roles:** Assign roles (Admin, Editor, Viewer) based on access levels.
+![Tenant](./attachments/setting.png)
 - **Data Sources:** Connect via REST APIs, SQL databases, or CSV uploads.
+![Tenant](./attachments/data2.png)
 - **Refresh Intervals:** Configure auto-refresh for real-time dashboards.
+![Tenant](./attachments/refresh.png)
 - **Notifications:** Enable alerting for threshold breaches or key KPI events.
 
 ---
