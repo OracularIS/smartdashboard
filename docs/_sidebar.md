@@ -1,13 +1,8 @@
 <!-- docs/_sidebar.md -->
-- [Overview](./readme.md)
-- [Getting Started](./GettingSmartViu.md)
-- [Architecture Overview](./architecture.md)
-- [SmartViu Bundle](./bundles.md)
-  - [SmartViu Screen](./smartviu.md)
-  - [OSSI - LES Command Maintenance](./lescommand.md)
-- [Use Cases](./usecases/main.md)
-  - [Pagination in SmartViu](./usecases/pagination.md)
-  - [Scripts to Handle Complex Queries](./usecases/complexqueries.md)
-- [Snowflake Integration](./snowflake.md)
-- [Release Updates](./relase_notes.md)
-- [SmartViu FAQ](./FAQ.md)
+- [Home](./readme.md)
+
+- [Pre Requisites](./setup_guide.md)
+
+- [User Guide](./user_guide.md)
+
+- [FAQ's](./faq.md)
