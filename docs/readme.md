@@ -1,38 +1,22 @@
-# Introduction
+# Overview
 
-## What is SmartViu?
+## What is Smart Dashboard?
 
-SmartViu is a customized web-based solution designed for Blue Yonder (BY) WMS users. It is designed to simplify screen development for users with no experience in Page Builder, DDAs, and Web screens. SmartViu is a no-code/low-code solution specifically tailored for Blue Yonder WMS users, making the process of screen creation effortless and efficient.
+**Smart Dashboard** is a comprehensive, web-based data visualization and analytics platform.  
+It enables organizations to monitor performance, analyze data, and generate actionable insights in real-time — all within a secure and scalable environment.
 
-SmartViu streamlines the creation and management of screens, allowing you to focus on optimizing your operations and achieving your business goals.
+---
 
-### Key Features
+## Key Objectives
+- Simplify data visualization for non-technical users  
+- Centralize data access across multiple tenants and environments  
+- Provide real-time monitoring of KPIs and metrics  
+- Deliver customizable dashboards tailored to each team's needs
 
-- Easy screen development with no coding required.
-- Maintenance screen for managing LES commands.
-- SmartViu screen for viewing and interacting with reports.
-- Role-based access control for report visibility.
-- Enhanced data visualization with grid coloring features based on criteria provided by the user.
+---
 
-### Core Technologies
-
-| Component           | Technology         |
-|---------------------|--------------------|
-| Front-End           | Ext JS 4.2         |
-| Server-Side Language| MOCA (LES scripting) |
-| Database            | SQL Server or Oracle |
-
-
-### Security - Role-Based Access Control
-
-Security in SmartViu is managed through role-based access control to ensure secure and controlled access to reports and actions. Each LES command can be mapped to one or more user roles, restricting visibility and execution to authorized personnel only.
-
-By integrating directly with existing Blue Yonder WMS role configurations, SmartViu allows administrators to:
-
-1. Control access to reports
-2. Assign or remove roles
-3. Keep the system secure without extra setup
-
-
-
-
+## Architecture Highlights
+- **Web-Based Platform:** Accessible from any modern browser  
+- **Multi-Tenant Support:** Separate data environments for each organization or team  
+- **Scalable Infrastructure:** Built to handle growing data volumes and user bases  
+- **Secure Design:** Implements best practices in data access and authentication  
