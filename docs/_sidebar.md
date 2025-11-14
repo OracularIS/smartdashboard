@@ -2,9 +2,8 @@
 
 - [Home](./readme.md)
 
-
 - [Pre Requisites](./setup_guide.md)
 
 - [User Guide](./user_guide.md)
 
-- [FAQ's](./faqs.md)
+- [FAQ's](./faq.md)
