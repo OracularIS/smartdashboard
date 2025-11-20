@@ -3,7 +3,7 @@
 This section explains the key concepts used when connecting to Smart Dashboard APIs and posting data through the **Smart MOCA Client**. Understanding these concepts ensures your data is uploaded correctly and dashboards stay up to date.
 
 ---
-
+ 
 ## 1. HTTP POST Method
 
 The **POST method** is used to send data to a server. In Smart Dashboard, it is primarily used to upload data to dashboards via the Smart MOCA Client.
