@@ -7,4 +7,5 @@
     - [View Dashboard](./User_Guide/view_dashboard.md)
 
 - [Features](./features.md)
+- [Concepts](./concept.md)
 - [FAQ's](./faq.md)

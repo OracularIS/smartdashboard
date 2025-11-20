@@ -1,4 +1,5 @@
-## - Creating a New Dashboard
+## Creating a New Dashboard
+You can see three options on **Home Page** Screen
 ### 1. View Dashboards
 If you have created any dashboards, you can view all your existing dashboards here.
 
@@ -7,6 +8,8 @@ To create a new dashboard, go to the **Data Management** section.
 
 ### 3. API Documentation
 This section contains a small user guide on how to integrate with our API for automated data uploads and data retrievals.
+
+
 **As a new user, the first step is to create a dashboard.**
 
 ![Data Management](../attachments/data.png)
@@ -119,14 +122,7 @@ We also support automated uploads through the **Smart Moca Client** using a scri
     and body = @x 
     }
 
-## Required Fields in MOCA HTTP Request
 
-| Header / Field Name   | Description |
-|-----------------------|-------------|
-| **x-api-key**         | Your API Key used for authentication. |
-| **X-Data-Type**       | The header representing the type of data for your visual (e.g., Trailers, Shipments, Inventory). |
-| **X-Tenant-Id**       | The Tenant ID assigned to your organization. |
-| **X-Dashboard-Id**    | The Dashboard ID of the dashboard you created to upload data into. |
 
 You will get the success message and your data is pushed to your **Dashboard**
 
