@@ -6,7 +6,8 @@ Smart Dashboard provides an intuitive workspace where you can create dashboards,
 
 For the complete setup process, including environment configuration and first-time dashboard creation, please refer to the detailed setup guide below:
 
-**[Open the Setup Guide](/User_Guide/Setup-guide.md)**
+👉 **[Open the Setup Guide](/User_Guide/create_dashboard.md)**
+
 
 Once your setup is complete, you’ll be ready to explore the platform, build dashboards, and start analyzing your data effectively here
 
