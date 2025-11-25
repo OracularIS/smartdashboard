@@ -34,4 +34,4 @@ Now you can see the **Home Page** of the Smart Dashboard, where multiple options
 Once your setup is complete, you’ll be ready to create your first dashboard.  
 To learn how to create a new dashboard,
 
-👉 **[Create Dashboard](../User_Guide/create_dashboard.md)**
+👉 **[Create Dashboard](./create_dashboard.md)**
