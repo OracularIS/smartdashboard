@@ -26,7 +26,7 @@ Smart Dashboard is a comprehensive platform designed to help organizations visua
 ---
 
 ## 4. Data Integration
-- Upload data from various sources including XML, CSV, and API feeds.
+- Upload data from various sources including XML and API feeds.
 - Automated data ingestion through scripts or API connections.
 - Supports multiple data types and formats for comprehensive analytics.
 
@@ -39,21 +39,14 @@ Smart Dashboard is a comprehensive platform designed to help organizations visua
 
 ---
 
-## 6. Security & Access Control
-- Role-based access ensures that only authorized users can view or modify dashboards.
-- Supports tenant-specific authentication and API key management.
-- Protects sensitive organizational data across multiple teams.
-
----
-
-## 7. Customizable Settings
+## 6. Customizable Settings
 - Create and manage custom settings for dashboards.
 - Configure public or private sharing options.
 - Adjust dashboard behavior and layout based on organizational needs.
 
 ---
 
-## 8. Scalability
+## 7. Scalability
 - Designed to handle growing datasets and user bases.
 - Optimized infrastructure for performance even with complex dashboards.
 - Flexible architecture that evolves with organizational requirements.
