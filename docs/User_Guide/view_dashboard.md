@@ -10,7 +10,7 @@ After creating your dashboard, you can view all your dashboards on the **View Da
     ![Data Management](../attachments/view.png)
 
 - Features available on this screen:
-  - **Edit dashboard positions** – rearrange your visuals as needed.
+  - **Edit visuals positions** – rearrange your visuals as needed.
   - **Refresh data** – update your dashboard with the latest data directly.
 
     ![Data Management](../attachments/view2.png)
@@ -35,4 +35,12 @@ Enable **TV View** for automated, hands-free display of key dashboards — perfe
 ![Dashboard](../attachments/tv2.png)
 
 
+### **TV Mode Customization:** 
 
+You can customize all TV Mode settings from this panel.
+- **Timing Controls:** Adjust slide duration, data refresh interval, and controls hide timeout.
+- **Animation Controls:** Set animation duration and choose your preferred animation type.
+- **Reset Option:** Quickly restore all TV Mode settings to their default values.
+
+
+![Dashboard](../attachments/tv3.png)

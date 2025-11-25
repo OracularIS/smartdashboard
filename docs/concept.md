@@ -24,8 +24,10 @@ When sending data via POST, a request typically includes:
 ### a. URL (Endpoint)
 The API endpoint where the data will be sent.  
 Example:  
-'https://dashboards.smart-is.com/api/upload-xml'
 
+```
+https://dashboards.smart-is.com/api/upload-xml
+```
 
 ### b. Headers
 Headers provide metadata about the request. Common headers include:
@@ -41,7 +43,6 @@ Headers provide metadata about the request. Common headers include:
 The body contains the actual data you are sending. This can be:
 
 - XML (commonly used for dashboards)  
-- JSON  
 
 In Smart MOCA Client, the body is usually stored in a variable (e.g., `@x`) before sending.
 
@@ -50,17 +51,11 @@ In Smart MOCA Client, the body is usually stored in a variable (e.g., `@x`) befo
 ## 3. Example: Smart MOCA Client POST Request
 
 ```moca
-{
+ {
     do http request
-    where url = <Dashboard URL>
+    where url = 'https://dashboards.smart-is.com/api/upload-xml'
     and method = 'post'
-    and header = '<API-KEY>
-    &
-    X-Data-Type: <DATA TYPE>
-    &
-    X-Tenant-Id: <TENANT ID>
-    &
-    X-Dashboard-Id: DASHBOARD ID'
+    and header = '<API-KEY>&X-Data-Type:<DATA TYPE>X-Tenant-Id:<TENANT ID>&X-Dashboard-Id:<DASHBOARD ID>'
     and body = @x 
     }
  ```   

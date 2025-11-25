@@ -81,15 +81,16 @@ To add a new data file:
 ```
 
 
+This method is intended for XML uploads, but we do not recommend using it because it always returns static values. To get updated data, you must manually modify the XML file each time.
 
-This method is for XML uploads.  
-We also support automated uploads through the **Smart Moca Client** using a script.
+- **We also support automated uploads through the Smart Moca Client using a script, or through the API.**
+
 
 ---
 
 ### Example MOCA Script
 
-    ```moca
+  ```moca
     {publish data where month = 'March' and sales= 18500 
     &
     publish data where month = 'April' and sales =15000
@@ -108,21 +109,20 @@ We also support automated uploads through the **Smart Moca Client** using a scri
     |
     publish data where x = @mxml_xml
     |
-    {
+     {
     do http request
-    where url = <Dashboard URL>
+    where url = 'https://dashboards.smart-is.com/api/upload-xml'
     and method = 'post'
-    and header = '<API-KEY>
-    &
-    X-Data-Type: <DATA TYPE>
-    &
-    X-Tenant-Id: <TENANT ID>
-    &
-    X-Dashboard-Id: DASHBOARD ID'
+    and header = '<API-KEY>&X-Data-Type:<DATA TYPE>X-Tenant-Id:<TENANT ID>&X-Dashboard-Id: <DASHBOARD ID>'
     and body = @x 
     }
-
-
+ ```
+| Header / Field Name   | Description |
+|-----------------------|-------------|
+| **x-api-key**         | Your API Key used for authentication. |
+| **X-Data-Type**       | The header representing the type of data for your visual (e.g., Trailers, Shipments, Inventory). |
+| **X-Tenant-Id**       | The Tenant ID assigned to your organization. |
+| **X-Dashboard-Id**    | The Dashboard ID of the dashboard you created to upload data into. |
 
 You will get the success message and your data is pushed to your **Dashboard**
 
@@ -133,20 +133,24 @@ You will get the success message and your data is pushed to your **Dashboard**
 The third tab under Data Management is **Settings**, where you can manage dashboard access and configuration.
 
 ### Manage Access
+You have these **two default settings**
+
 - **allow_public_sharing = true**  
   This means **anyone** with the dashboard link can access the dashboard.
 - You can also update the **title** of your dashboard in this section.
 
+ You can create your own additional settings as needed.
 ### Creating a New Setting
-To add a new custom setting:
+To add a custom setting:
 1. Enter the **Setting Key**.
 2. Enter the **Setting Value**.
 3. Click **Create Setting**.
 
 Your new setting will be added to the list immediately.
 
+
 ![Data Management](../attachments/setting.png)
 
 Once your dashboard is created, you can view and manage all your dashboards in one place.
 
-👉 **[View Dashboards](/User_Guide/view_dashboard.md)**
+👉 **[View Dashboards](../User_Guide/view_dashboard.md)**

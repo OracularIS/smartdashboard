@@ -1,7 +1,10 @@
 # Setup Guide
 ## Step 1: Login Page
-Upon opening the application, the user will see the login page 
 
+👉 **Access the Smart Dashboard here:** https://dashboards.smart-is.com/
+
+Upon opening the application, the user will see the login page
+ 
 ![Login](../attachments/login.png)
 
 ### Sign In
@@ -31,4 +34,4 @@ Now you can see the **Home Page** of the Smart Dashboard, where multiple options
 Once your setup is complete, you’ll be ready to create your first dashboard.  
 To learn how to create a new dashboard,
 
-👉 **[Create Dashboard](/User_Guide/create_dashboard.md)**
+👉 **[Create Dashboard](../User_Guide/create_dashboard.md)**
