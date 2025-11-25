@@ -153,4 +153,4 @@ Your new setting will be added to the list immediately.
 
 Once your dashboard is created, you can view and manage all your dashboards in one place.
 
-👉 **[View Dashboards](../User_Guide/view_dashboard.md)**
+👉 **[View Dashboards](./view_dashboard.md)**
