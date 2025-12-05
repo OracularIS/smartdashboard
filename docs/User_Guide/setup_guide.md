@@ -1,33 +1,48 @@
 # Setup Guide
+
+To access Smart Products, the user must first sign in at https://auth.smart-is.com/login 
+
+After the first login, the user will automatically gain access to all products assigned to their account.
+
 ## Step 1: Login Page
 
-👉 **Access the Smart Dashboard here:** https://dashboards.smart-is.com/
+To access the Smart Dashboard, sign in at https://auth.smart-is.com/login 
 
-Upon opening the application, the user will see the login page
- 
-![Login](../attachments/login.png)
+Upon opening the application, the login page will appear.
+
+![Login](../attachments/AuthLogin.png)
 
 ### Sign In
-- Enter your **email** and **password**.
-- Click the **Sign In** button to proceed to the product.
+- Enter your **email** and **password**, or sign in using your **Microsoft Account**.
+- Click **Login** to continue to the product.
 
 ### Sign Up
-If you don't have an account, click **Sign Up** to create a new one.
+If you don't have an account, click **Sign Up** to register a new one.
 
-## Step 2: Tenant Selection
+## Step 2: Product Selection
+
+After signing in, you will be navigated to the Home Page, where all assigned products are displayed.
+
+Click **Dashboards** to continue.
+
+![Login](../attachments/ProductSelection.png)
+
+## Step 3: Tenant Selection
 Our system is **tenant-based**.
 
-After signing in, you will be navigated to the **Tenant Selection** screen 
+After signing in, you will be taken to the **Tenant Selection** screen.
+
 ![tenant](../attachments/select_tenant.png)
 
-- If you signed in with an **organization account**, and we have already assigned you a tenant, you will **automatically see your assigned tenant** displayed on this screen.
-- Or choose your tenant from the dropdown/list.
+- If you sign in with an **organization account** and a tenant has already been assigned to you, it will automatically appear here.
+- Alternatively, select your tenant from the dropdown/list.
 
 After selecting the tenant, click **Continue** to proceed to the **Home Page**.
 
-## Step 3: Home Page Overview
+## Step 4: Home Page Overview
 
-Now you can see the **Home Page** of the Smart Dashboard, where multiple options are available:
+Once the tenant is selected, you will be able to view the **Home Page** of the Smart Dashboard, which provides access to multiple features and modules.
+
 ![Home](../attachments/home.png)
 
 
