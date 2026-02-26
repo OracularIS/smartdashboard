@@ -5,7 +5,7 @@ Once you have created a dashboard, you can access it from the View Dashboards se
 - Navigate to **View Dashboards** from the Home Page.
 
 <div style="text-align: center;">
-  <img src="/docs/attachments/img4.png"
+  <img src="/attachments/img4.png"
        alt="undirectedmenu"
        style="height: 200px; margin: auto; display: block; cursor: zoom-in;
               border: 2px solid #000000; border-radius: 4px;"
@@ -18,7 +18,7 @@ Once you have created a dashboard, you can access it from the View Dashboards se
 
 
 <div style="text-align: center;">
-  <img src="/docs/attachments/img5.png"
+  <img src="/attachments/img5.png"
        alt="undirectedmenu"
        style="height: 200px; margin: auto; display: block; cursor: zoom-in;
               border: 2px solid #000000; border-radius: 4px;"
@@ -34,7 +34,7 @@ The following options are available while viewing a dashboard:
     Rearrange visuals on the dashboard to match your preferred layout.
 
   <div style="text-align: center;">
-  <img src="/docs/attachments/img7.png"
+  <img src="/attachments/img7.png"
        alt="undirectedmenu"
        style="height: 200px; margin: auto; display: block; cursor: zoom-in;
               border: 2px solid #000000; border-radius: 4px;"
@@ -47,7 +47,7 @@ The following options are available while viewing a dashboard:
     Update the dashboard to display the latest available data.
 
   <div style="text-align: center;">
-  <img src="/docs/attachments/img8.png"
+  <img src="/attachments/img8.png"
        alt="undirectedmenu"
        style="height: 200px; margin: auto; display: block; cursor: zoom-in;
               border: 2px solid #000000; border-radius: 4px;"
@@ -65,7 +65,7 @@ The following options are available while viewing a dashboard:
     - Pie Chart 
 
   <div style="text-align: center;">
-  <img src="/docs/attachments/img9.png"
+  <img src="/attachments/img9.png"
        alt="undirectedmenu"
        style="height: 200px; margin: auto; display: block; cursor: zoom-in;
               border: 2px solid #000000; border-radius: 4px;"
@@ -83,7 +83,7 @@ This feature is ideal for control rooms, warehouses, and office environments.
 - You can activate TV mode from the option available. 
 
   <div style="text-align: center;">
-  <img src="/docs/attachments/img10.png"
+  <img src="/attachments/img10.png"
        alt="undirectedmenu"
        style="height: 200px; margin: auto; display: block; cursor: zoom-in;
               border: 2px solid #000000; border-radius: 4px;"
@@ -94,7 +94,7 @@ This feature is ideal for control rooms, warehouses, and office environments.
 You can adjust the following settings by navigating to the settings tab.
 
   <div style="text-align: center;">
-  <img src="/docs/attachments/img12.png"
+  <img src="/attachments/img12.png"
        alt="undirectedmenu"
        style="height: 200px; margin: auto; display: block; cursor: zoom-in;
               border: 2px solid #000000; border-radius: 4px;"
@@ -114,7 +114,7 @@ You can adjust the following settings by navigating to the settings tab.
   Restore all TV Mode settings to their default configuration with a single click.
 
   <div style="text-align: center;">
-  <img src="/docs/attachments/img13.png"
+  <img src="/attachments/img13.png"
        alt="undirectedmenu"
        style="height: 200px; margin: auto; display: block; cursor: zoom-in;
               border: 2px solid #000000; border-radius: 4px;"

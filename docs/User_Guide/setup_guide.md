@@ -7,7 +7,7 @@ Access the Smart Dashboard here: https://dashboards.smart-is.com/
 1. When you open the link, the Login Page will appear.
 
 <div style="text-align: center;">
-  <img src="/docs/attachments/img1.png"
+  <img src="/attachments/img1.png"
        alt="undirectedmenu"
        style="height: 200px; margin: auto; display: block; cursor: zoom-in;
               border: 2px solid #000000; border-radius: 4px;"
@@ -28,7 +28,7 @@ Access the Smart Dashboard here: https://dashboards.smart-is.com/
     After signing in, you will be directed to the **Tenant Selection** screen.
 
 <div style="text-align: center;">
-  <img src="/docs/attachments/img2.png"
+  <img src="/attachments/img2.png"
        alt="undirectedmenu"
        style="height: 200px; margin: auto; display: block; cursor: zoom-in;
               border: 2px solid #000000; border-radius: 4px;"
@@ -43,7 +43,7 @@ Access the Smart Dashboard here: https://dashboards.smart-is.com/
 3. After selecting your tenant, you will land on the **Home Page** of Smart Dashboard.
 
 <div style="text-align: center;">
-  <img src="/docs/attachments/img3.png"
+  <img src="/attachments/img3.png"
        alt="undirectedmenu"
        style="height: 200px; margin: auto; display: block; cursor: zoom-in;
               border: 2px solid #000000; border-radius: 4px;"
