@@ -1,46 +1,125 @@
-## Viewing Created Dashboards
+# Viewing Created Dashboards
 
-After creating your dashboard, you can view all your dashboards on the **View Dashboard**.
-
-![Data Management](../attachments/home2.png)
+Once you have created a dashboard, you can access it from the View Dashboards section.
 
 - Navigate to **View Dashboards** from the Home Page.
+
+<div style="text-align: center;">
+  <img src="../attachments/img4.png"
+       alt="undirectedmenu"
+       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
+              border: 2px solid #000000; border-radius: 4px;"
+       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
+       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
+  </div>
+
+
 - You can see your created dashboards here and select any dashboard from the **dropdown list**.
 
-    ![Data Management](../attachments/view.png)
 
-- Features available on this screen:
-  - **Edit visuals positions** – rearrange your visuals as needed.
-  - **Refresh data** – update your dashboard with the latest data directly.
+<div style="text-align: center;">
+  <img src="../attachments/img5.png"
+       alt="undirectedmenu"
+       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
+              border: 2px solid #000000; border-radius: 4px;"
+       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
+       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
+  </div>
 
-    ![Data Management](../attachments/view2.png)
+## Features
+The following options are available while viewing a dashboard:
 
-  - **Change visual type** – click on the dropdown to switch between visual types such as **Line, Bar, Area, Pie**, etc.
+1. **Edit Visual Positions**:
 
-    ![Data Management](../attachments/view3.png)
+    Rearrange visuals on the dashboard to match your preferred layout.
 
-### Sample Dashboard Example
+  <div style="text-align: center;">
+  <img src="../attachments/img7.png"
+       alt="undirectedmenu"
+       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
+              border: 2px solid #000000; border-radius: 4px;"
+       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
+       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
+  </div>
 
-- Our sample dashboard contains the **data files** we added earlier.
-- There are **2 visuals** in this report:
-  1. **Picks** – created by adding a file from the **Data Management** screen.
-  2. **Order** – created using the **MOCA script**.
+2. **Refresh Data**:
 
-        ![Data Management](../attachments/view4.png)
+    Update the dashboard to display the latest available data.
 
-### TV View Mode
-Enable **TV View** for automated, hands-free display of key dashboards — perfect for control rooms, warehouses, and offices.
+  <div style="text-align: center;">
+  <img src="../attachments/img8.png"
+       alt="undirectedmenu"
+       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
+              border: 2px solid #000000; border-radius: 4px;"
+       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
+       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
+  </div>
 
-![TV Mode](../attachments/tv1.png)
-![Dashboard](../attachments/tv2.png)
+3. **Change Visual Type**
+
+    Switch between different chart types using the dropdown menu.  
+    Available options include:
+    - Line Chart  
+    - Bar Chart  
+    - Area Chart  
+    - Pie Chart 
+
+  <div style="text-align: center;">
+  <img src="../attachments/img9.png"
+       alt="undirectedmenu"
+       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
+              border: 2px solid #000000; border-radius: 4px;"
+       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
+       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
+  </div>
 
 
-### **TV Mode Customization:** 
+## TV View Mode
 
-You can customize all TV Mode settings from this panel.
-- **Timing Controls:** Adjust slide duration, data refresh interval, and controls hide timeout.
-- **Animation Controls:** Set animation duration and choose your preferred animation type.
-- **Reset Option:** Quickly restore all TV Mode settings to their default values.
+TV View Mode allows dashboards to run automatically in a hands-free display format.  
 
+This feature is ideal for control rooms, warehouses, and office environments.
 
-![Dashboard](../attachments/tv3.png)
+- You can activate TV mode from the option available. 
+
+  <div style="text-align: center;">
+  <img src="../attachments/img10.png"
+       alt="undirectedmenu"
+       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
+              border: 2px solid #000000; border-radius: 4px;"
+       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
+       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
+  </div>
+
+You can adjust the following settings by navigating to the settings tab.
+
+  <div style="text-align: center;">
+  <img src="../attachments/img12.png"
+       alt="undirectedmenu"
+       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
+              border: 2px solid #000000; border-radius: 4px;"
+       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
+       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
+  </div>
+
+- **Timing Controls**
+
+  Adjust slide duration, data refresh interval, and controls hide timeout.  
+
+- **Animation Controls**
+  Set animation duration and choose your preferred animation type.
+
+- **Reset Option**
+
+  Restore all TV Mode settings to their default configuration with a single click.
+
+  <div style="text-align: center;">
+  <img src="../attachments/img13.png"
+       alt="undirectedmenu"
+       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
+              border: 2px solid #000000; border-radius: 4px;"
+       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
+       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
+  </div>
+  
+  ---

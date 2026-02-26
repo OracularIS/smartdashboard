@@ -1,59 +1,159 @@
-## Creating a New Dashboard
-You can see three options on **Home Page** Screen
-### 1. View Dashboards
-If you have created any dashboards, you can view all your existing dashboards here.
+# Data Management 
 
-### 2. Data Management
-To create a new dashboard, go to the **Data Management** section.
+The Data Management screen allows you to create, organize, and manage your dashboards and their associated data files.
 
-### 3. API Documentation
-This section contains a small user guide on how to integrate with our API for automated data uploads and data retrievals.
+It serves as the control center for organizing and maintaining your dashboard environment.
+
+- Navigate to **Data Management** from the Home Page.
+
+<div style="text-align: center;">
+  <img src="../attachments/img14.png"
+       alt="undirectedmenu"
+       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
+              border: 2px solid #000000; border-radius: 4px;"
+       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
+       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
+  </div>
+
+This screen is divided into four main tabs:
+
+- Dashboard
+- Data Files
+- Settings
+- API Key
+
+Each tab serves a specific purpose, explained below.
+
+## Dashboard 
+
+The Dashboard Management tab allows you to create, edit, organize, and manage your dashboards in one place.
+
+You can:
+- Create new dashboards
+- Edit existing dashboards
+- Drag and drop to reorder dashboards
+- Delete dashboards when no longer needed
+
+⚠ **Important:**  
+Deleting a dashboard will permanently remove all associated data files linked to that dashboard.
+
+<div style="text-align: center;">
+  <img src="../attachments/img15.png"
+       alt="undirectedmenu"
+       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
+              border: 2px solid #000000; border-radius: 4px;"
+       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
+       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
+  </div>
+
+- **Creating a new Dashboard**
+   1. Enter a Dashboard Title and click Create.
+
+   <div style="text-align: center;">
+  <img src="../attachments/img16.png"
+       alt="undirectedmenu"
+       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
+              border: 2px solid #000000; border-radius: 4px;"
+       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
+       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
+  </div>
+
+  2. he dashboard will appear under **Existing Dashboards**. You can now Edit or Delete it as well.
+
+   <div style="text-align: center;">
+  <img src="../attachments/img17.png"
+       alt="undirectedmenu"
+       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
+              border: 2px solid #000000; border-radius: 4px;"
+       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
+       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
+  </div>
+
+3. A unique **Dashboard Key** will be generated.
+
+  <div style="text-align: center;">
+  <img src="../attachments/img18.png"
+       alt="undirectedmenu"
+       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
+              border: 2px solid #000000; border-radius: 4px;"
+       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
+       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
+  </div>
+
+  🔑 Keep the Dashboard Key secure, as it is required when uploading data to this dashboard.
 
 
-**As a new user, the first step is to create a dashboard.**
+##  Data Files
+The Data Files tab allows you to upload and manage data for your dashboards.  
+All files are organized by dashboard for easy tracking and control.
 
-![Data Management](../attachments/data.png)
+When you open Data Files, you can:
+  - View previously uploaded files (if any exist)
+  - Filter files by dashboard
+  - Delete existing data files
 
-**Go to **Data Management**. You will see three options:**
+  <div style="text-align: center;">
+  <img src="../attachments/img19.png"
+       alt="undirectedmenu"
+       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
+              border: 2px solid #000000; border-radius: 4px;"
+       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
+       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
+  </div>
 
-![Data Management](../attachments/3.png)
+- **Add a New Data File**:
 
----
+  As a new user, your next step is to add data to the dashboard you created.
 
-### 1. Dashboard
-- Enter a **Title** for your new dashboard.
-- Click **Create**.
+  To upload a new data file:
 
-    ![Data Management](../attachments/create.png)
+  1. Click Add Data File.
 
-- After creating, your dashboard will appear under 
-**Existing Dashboards**.
-- You will also see your **Dashboard Key**.  
-  **Important:** Remember this key — it is 
-  required when pushing data into the dashboard.
+ <div style="text-align: center;">
+  <img src="../attachments/img22.png"
+       alt="undirectedmenu"
+       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
+              border: 2px solid #000000; border-radius: 4px;"
+       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
+       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
+  </div>
 
-    ![Data Management](../attachments/recent.png)
+  2. Select the **Dashboard** you created earlier
 
----
+ <div style="text-align: center;">
+  <img src="../attachments/img21.png"
+       alt="undirectedmenu"
+       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
+              border: 2px solid #000000; border-radius: 4px;"
+       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
+       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
+  </div>
 
-### 2. Data Files
-When you click on **Data Files**, you will see:
-- Your existing files (if any dashboards were created earlier).
-- You can filter files by dashboard.
-- You can delete existing data files.
+  3. Choose the appropriate **Data Type**
 
-    ![Data Management](../attachments/data3.png)
+   <div style="text-align: center;">
+  <img src="../attachments/img23.png"
+       alt="undirectedmenu"
+       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
+              border: 2px solid #000000; border-radius: 4px;"
+       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
+       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
+  </div>
 
-Since we are new users, focus on **Add Data File** to create your first data file.
+  4. Paste your XML data or JSON and Add Data File.
 
-To add a new data file:
-1. Select the **dashboard** you created in the previous step.
-2. Select the **data type** for your file.
-3. Add the **XML data**.
+   <div style="text-align: center;">
+  <img src="../attachments/img24.png"
+       alt="undirectedmenu"
+       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
+              border: 2px solid #000000; border-radius: 4px;"
+       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
+       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
+  </div>
 
-    ![Data Management](../attachments/data4.png)
+  5. The data will be added for your selected Dashboard.
 
-### Example XML Response
+**Example XML Response**
 
 ```xml
 <resultset columns="2" rows="5">
@@ -86,9 +186,7 @@ This method is intended for XML uploads, but we do not recommend using it becaus
 - **We also support automated uploads through the Smart Moca Client using a script, or through the API.**
 
 
----
-
-### Example MOCA Script
+**Example MOCA Script**
 
   ```moca
     {publish data where month = 'March' and sales= 18500 
@@ -126,31 +224,58 @@ This method is intended for XML uploads, but we do not recommend using it becaus
 
 You will get the success message and your data is pushed to your **Dashboard**
 
-![Data Management](../attachments/moca.png)
-
-### 3. Settings
-
-The third tab under Data Management is **Settings**, where you can manage dashboard access and configuration.
-
-### Manage Access
-You have these **two default settings**
-
-- **allow_public_sharing = true**  
-  This means **anyone** with the dashboard link can access the dashboard.
-- You can also update the **title** of your dashboard in this section.
-
- You can create your own additional settings as needed.
-### Creating a New Setting
-To add a custom setting:
-1. Enter the **Setting Key**.
-2. Enter the **Setting Value**.
-3. Click **Create Setting**.
-
-Your new setting will be added to the list immediately.
+   <div style="text-align: center;">
+  <img src="../attachments/moca.png"
+       alt="undirectedmenu"
+       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
+              border: 2px solid #000000; border-radius: 4px;"
+       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
+       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
+  </div>
 
 
-![Data Management](../attachments/setting.png)
+## Settings
 
-Once your dashboard is created, you can view and manage all your dashboards in one place.
+The Settings is where you can control and adjust your dashboard's configuration.
 
-**[View Dashboards](/User_Guide/view_dashboard.md)**
+  <div style="text-align: center;">
+  <img src="../attachments/img26.png"
+       alt="undirectedmenu"
+       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
+              border: 2px solid #000000; border-radius: 4px;"
+       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
+       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
+  </div>
+
+Note: These settings are tenant-specific, meaning they only apply to your current tenant and won’t affect other tenants.
+
+- **Manage Access**
+
+  By default, you’ll see two settings:
+
+  - **allow_public_sharing = true**: This means anyone with the dashboard link can view it.
+
+  - **Dashboard Title** :You can change the name of your dashboard here.
+
+  You can also create additional custom settings if you want more control.
+
+- **Adding a Custom Setting**
+To create your own setting:
+
+  1. Enter a Setting Key (the name of your setting).
+
+  2. Enter a Setting Value (the value for your setting).
+
+  3. Click Create Setting.
+
+  <div style="text-align: center;">
+  <img src="../attachments/img25.png"
+       alt="undirectedmenu"
+       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
+              border: 2px solid #000000; border-radius: 4px;"
+       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
+       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
+  </div>
+
+
+Your new setting will appear immediately in the list.
