@@ -6,14 +6,7 @@ It serves as the control center for organizing and maintaining your dashboard en
 
 - Navigate to **Data Management** from the Home Page.
 
-<div style="text-align: center;">
-  <img src="/attachments/img14.png"
-       alt="undirectedmenu"
-       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
-              border: 2px solid #000000; border-radius: 4px;"
-       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
-       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
-  </div>
+  ![Screenshot](../attachments/img14.png)
 
 This screen is divided into four main tabs:
 
@@ -37,48 +30,21 @@ You can:
 ⚠ **Important:**  
 Deleting a dashboard will permanently remove all associated data files linked to that dashboard.
 
-<div style="text-align: center;">
-  <img src="/attachments/img15.png"
-       alt="undirectedmenu"
-       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
-              border: 2px solid #000000; border-radius: 4px;"
-       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
-       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
-  </div>
+  ![Screenshot](../attachments/img15.png)
 
 - **Creating a new Dashboard**
    1. Enter a Dashboard Title and click Create.
 
-   <div style="text-align: center;">
-  <img src="/attachments/img16.png"
-       alt="undirectedmenu"
-       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
-              border: 2px solid #000000; border-radius: 4px;"
-       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
-       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
-  </div>
+  ![Screenshot](../attachments/img16.png)
+
 
   2. he dashboard will appear under **Existing Dashboards**. You can now Edit or Delete it as well.
 
-   <div style="text-align: center;">
-  <img src="/attachments/img17.png"
-       alt="undirectedmenu"
-       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
-              border: 2px solid #000000; border-radius: 4px;"
-       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
-       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
-  </div>
+  ![Screenshot](../attachments/img17.png)
 
 3. A unique **Dashboard Key** will be generated.
 
-  <div style="text-align: center;">
-  <img src="/attachments/img18.png"
-       alt="undirectedmenu"
-       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
-              border: 2px solid #000000; border-radius: 4px;"
-       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
-       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
-  </div>
+  ![Screenshot](../attachments/img18.png)
 
   🔑 Keep the Dashboard Key secure, as it is required when uploading data to this dashboard.
 
@@ -92,14 +58,8 @@ When you open Data Files, you can:
   - Filter files by dashboard
   - Delete existing data files
 
-  <div style="text-align: center;">
-  <img src="/attachments/img19.png"
-       alt="undirectedmenu"
-       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
-              border: 2px solid #000000; border-radius: 4px;"
-       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
-       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
-  </div>
+  ![Screenshot](../attachments/img19.png)
+
 
 - **Add a New Data File**:
 
@@ -109,47 +69,21 @@ When you open Data Files, you can:
 
   1. Click Add Data File.
 
- <div style="text-align: center;">
-  <img src="/attachments/img22.png"
-       alt="undirectedmenu"
-       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
-              border: 2px solid #000000; border-radius: 4px;"
-       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
-       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
-  </div>
+  ![Screenshot](../attachments/img22.png)
+
 
   2. Select the **Dashboard** you created earlier
 
- <div style="text-align: center;">
-  <img src="/attachments/img21.png"
-       alt="undirectedmenu"
-       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
-              border: 2px solid #000000; border-radius: 4px;"
-       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
-       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
-  </div>
+  ![Screenshot](../attachments/img21.png)
 
   3. Choose the appropriate **Data Type**
 
+  ![Screenshot](../attachments/img23.png)
    <div style="text-align: center;">
-  <img src="/attachments/img23.png"
-       alt="undirectedmenu"
-       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
-              border: 2px solid #000000; border-radius: 4px;"
-       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
-       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
-  </div>
 
   4. Paste your XML data or JSON and Add Data File.
 
-   <div style="text-align: center;">
-  <img src="/attachments/img24.png"
-       alt="undirectedmenu"
-       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
-              border: 2px solid #000000; border-radius: 4px;"
-       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
-       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
-  </div>
+  ![Screenshot](../attachments/img24.png)
 
   5. The data will be added for your selected Dashboard.
 
@@ -224,28 +158,13 @@ This method is intended for XML uploads, but we do not recommend using it becaus
 
 You will get the success message and your data is pushed to your **Dashboard**
 
-   <div style="text-align: center;">
-  <img src="/attachments/moca.png"
-       alt="undirectedmenu"
-       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
-              border: 2px solid #000000; border-radius: 4px;"
-       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
-       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
-  </div>
-
+  ![Screenshot](../attachments/moca.png)
 
 ## Settings
 
 The Settings is where you can control and adjust your dashboard's configuration.
 
-  <div style="text-align: center;">
-  <img src="/attachments/img26.png"
-       alt="undirectedmenu"
-       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
-              border: 2px solid #000000; border-radius: 4px;"
-       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
-       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
-  </div>
+  ![Screenshot](../attachments/img26.png)
 
 Note: These settings are tenant-specific, meaning they only apply to your current tenant and won’t affect other tenants.
 
@@ -268,15 +187,7 @@ To create your own setting:
 
   3. Click Create Setting.
 
-  <div style="text-align: center;">
-  <img src="/attachments/img25.png"
-       alt="undirectedmenu"
-       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
-              border: 2px solid #000000; border-radius: 4px;"
-       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
-       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
-  </div>
-
+  ![Screenshot](../attachments/img25.png)
 
 Your new setting will appear immediately in the list.
 ---
