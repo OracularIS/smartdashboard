@@ -42,13 +42,12 @@ Access the Smart Dashboard here: https://dashboards.smart-is.com/
 
 3. After selecting your tenant, you will land on the **Home Page** of Smart Dashboard.
 
-<div style="text-align: center;">
-  <img src="/attachments/img3.png"
-       alt="undirectedmenu"
-       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
-              border: 2px solid #000000; border-radius: 4px;"
-       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
-       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
-  </div>
+<div style="text-align:center;">
+  <img src="../attachments/img3.png" 
+       alt="Screenshot" 
+       style="height:200px; cursor:zoom-in; transition:height 0.3s;"
+       onclick="this.style.height=(this.style.height==='200px'?'400px':'200px');
+                this.style.cursor=(this.style.cursor==='zoom-in'?'zoom-out':'zoom-in');">
+</div>
 
 ---
