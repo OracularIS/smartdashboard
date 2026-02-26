@@ -7,7 +7,7 @@ It serves as the control center for organizing and maintaining your dashboard en
 - Navigate to **Data Management** from the Home Page.
 
 <div style="text-align: center;">
-  <img src="../attachments/img14.png"
+  <img src="/docs/attachments/img14.png"
        alt="undirectedmenu"
        style="height: 200px; margin: auto; display: block; cursor: zoom-in;
               border: 2px solid #000000; border-radius: 4px;"
@@ -38,7 +38,7 @@ You can:
 Deleting a dashboard will permanently remove all associated data files linked to that dashboard.
 
 <div style="text-align: center;">
-  <img src="../attachments/img15.png"
+  <img src="/docs/attachments/img15.png"
        alt="undirectedmenu"
        style="height: 200px; margin: auto; display: block; cursor: zoom-in;
               border: 2px solid #000000; border-radius: 4px;"
@@ -50,7 +50,7 @@ Deleting a dashboard will permanently remove all associated data files linked to
    1. Enter a Dashboard Title and click Create.
 
    <div style="text-align: center;">
-  <img src="../attachments/img16.png"
+  <img src="/docs/attachments/img16.png"
        alt="undirectedmenu"
        style="height: 200px; margin: auto; display: block; cursor: zoom-in;
               border: 2px solid #000000; border-radius: 4px;"
@@ -61,7 +61,7 @@ Deleting a dashboard will permanently remove all associated data files linked to
   2. he dashboard will appear under **Existing Dashboards**. You can now Edit or Delete it as well.
 
    <div style="text-align: center;">
-  <img src="../attachments/img17.png"
+  <img src="/docs/attachments/img17.png"
        alt="undirectedmenu"
        style="height: 200px; margin: auto; display: block; cursor: zoom-in;
               border: 2px solid #000000; border-radius: 4px;"
@@ -72,7 +72,7 @@ Deleting a dashboard will permanently remove all associated data files linked to
 3. A unique **Dashboard Key** will be generated.
 
   <div style="text-align: center;">
-  <img src="../attachments/img18.png"
+  <img src="/docs/attachments/img18.png"
        alt="undirectedmenu"
        style="height: 200px; margin: auto; display: block; cursor: zoom-in;
               border: 2px solid #000000; border-radius: 4px;"
@@ -93,7 +93,7 @@ When you open Data Files, you can:
   - Delete existing data files
 
   <div style="text-align: center;">
-  <img src="../attachments/img19.png"
+  <img src="/docs/attachments/img19.png"
        alt="undirectedmenu"
        style="height: 200px; margin: auto; display: block; cursor: zoom-in;
               border: 2px solid #000000; border-radius: 4px;"
@@ -110,7 +110,7 @@ When you open Data Files, you can:
   1. Click Add Data File.
 
  <div style="text-align: center;">
-  <img src="../attachments/img22.png"
+  <img src="/docs/attachments/img22.png"
        alt="undirectedmenu"
        style="height: 200px; margin: auto; display: block; cursor: zoom-in;
               border: 2px solid #000000; border-radius: 4px;"
@@ -121,7 +121,7 @@ When you open Data Files, you can:
   2. Select the **Dashboard** you created earlier
 
  <div style="text-align: center;">
-  <img src="../attachments/img21.png"
+  <img src="/docs/attachments/img21.png"
        alt="undirectedmenu"
        style="height: 200px; margin: auto; display: block; cursor: zoom-in;
               border: 2px solid #000000; border-radius: 4px;"
@@ -132,7 +132,7 @@ When you open Data Files, you can:
   3. Choose the appropriate **Data Type**
 
    <div style="text-align: center;">
-  <img src="../attachments/img23.png"
+  <img src="/docs/attachments/img23.png"
        alt="undirectedmenu"
        style="height: 200px; margin: auto; display: block; cursor: zoom-in;
               border: 2px solid #000000; border-radius: 4px;"
@@ -143,7 +143,7 @@ When you open Data Files, you can:
   4. Paste your XML data or JSON and Add Data File.
 
    <div style="text-align: center;">
-  <img src="../attachments/img24.png"
+  <img src="/docs/attachments/img24.png"
        alt="undirectedmenu"
        style="height: 200px; margin: auto; display: block; cursor: zoom-in;
               border: 2px solid #000000; border-radius: 4px;"
@@ -225,7 +225,7 @@ This method is intended for XML uploads, but we do not recommend using it becaus
 You will get the success message and your data is pushed to your **Dashboard**
 
    <div style="text-align: center;">
-  <img src="../attachments/moca.png"
+  <img src="/docs/attachments/moca.png"
        alt="undirectedmenu"
        style="height: 200px; margin: auto; display: block; cursor: zoom-in;
               border: 2px solid #000000; border-radius: 4px;"
@@ -239,7 +239,7 @@ You will get the success message and your data is pushed to your **Dashboard**
 The Settings is where you can control and adjust your dashboard's configuration.
 
   <div style="text-align: center;">
-  <img src="../attachments/img26.png"
+  <img src="/docs/attachments/img26.png"
        alt="undirectedmenu"
        style="height: 200px; margin: auto; display: block; cursor: zoom-in;
               border: 2px solid #000000; border-radius: 4px;"
@@ -269,7 +269,7 @@ To create your own setting:
   3. Click Create Setting.
 
   <div style="text-align: center;">
-  <img src="../attachments/img25.png"
+  <img src="/docs/attachments/img25.png"
        alt="undirectedmenu"
        style="height: 200px; margin: auto; display: block; cursor: zoom-in;
               border: 2px solid #000000; border-radius: 4px;"
