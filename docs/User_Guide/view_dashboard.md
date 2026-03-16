@@ -4,27 +4,11 @@ Once you have created a dashboard, you can access it from the View Dashboards se
 
 - Navigate to **View Dashboards** from the Home Page.
 
-<div style="text-align: center;">
-  <img src="../attachments/img4.png"
-       alt="undirectedmenu"
-       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
-              border: 2px solid #000000; border-radius: 4px;"
-       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
-       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
-  </div>
-
+![Screenshot](../attachments/img4.png)
 
 - You can see your created dashboards here and select any dashboard from the **dropdown list**.
 
-
-<div style="text-align: center;">
-  <img src="../attachments/img5.png"
-       alt="undirectedmenu"
-       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
-              border: 2px solid #000000; border-radius: 4px;"
-       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
-       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
-  </div>
+![Screenshot](../attachments/img5.png)
 
 ## Features
 The following options are available while viewing a dashboard:
@@ -32,28 +16,14 @@ The following options are available while viewing a dashboard:
 1. **Edit Visual Positions**:
 
     Rearrange visuals on the dashboard to match your preferred layout.
-
-  <div style="text-align: center;">
-  <img src="../attachments/img7.png"
-       alt="undirectedmenu"
-       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
-              border: 2px solid #000000; border-radius: 4px;"
-       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
-       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
-  </div>
+  
+  ![Screenshot](../attachments/img7.png)
 
 2. **Refresh Data**:
 
     Update the dashboard to display the latest available data.
 
-  <div style="text-align: center;">
-  <img src="../attachments/img8.png"
-       alt="undirectedmenu"
-       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
-              border: 2px solid #000000; border-radius: 4px;"
-       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
-       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
-  </div>
+![Screenshot](../attachments/img8.png)
 
 3. **Change Visual Type**
 
@@ -64,15 +34,7 @@ The following options are available while viewing a dashboard:
     - Area Chart  
     - Pie Chart 
 
-  <div style="text-align: center;">
-  <img src="../attachments/img9.png"
-       alt="undirectedmenu"
-       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
-              border: 2px solid #000000; border-radius: 4px;"
-       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
-       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
-  </div>
-
+![Screenshot](../attachments/img9.png)
 
 ## TV View Mode
 
@@ -82,25 +44,11 @@ This feature is ideal for control rooms, warehouses, and office environments.
 
 - You can activate TV mode from the option available. 
 
-  <div style="text-align: center;">
-  <img src="../attachments/img10.png"
-       alt="undirectedmenu"
-       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
-              border: 2px solid #000000; border-radius: 4px;"
-       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
-       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
-  </div>
+![Screenshot](../attachments/img10.png)
 
 You can adjust the following settings by navigating to the settings tab.
 
-  <div style="text-align: center;">
-  <img src="../attachments/img12.png"
-       alt="undirectedmenu"
-       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
-              border: 2px solid #000000; border-radius: 4px;"
-       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
-       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
-  </div>
+![Screenshot](../attachments/img12.png)
 
 - **Timing Controls**
 
@@ -113,13 +61,6 @@ You can adjust the following settings by navigating to the settings tab.
 
   Restore all TV Mode settings to their default configuration with a single click.
 
-  <div style="text-align: center;">
-  <img src="../attachments/img13.png"
-       alt="undirectedmenu"
-       style="height: 200px; margin: auto; display: block; cursor: zoom-in;
-              border: 2px solid #000000; border-radius: 4px;"
-       onclick="this.style.height='400px'; this.style.cursor='zoom-out';"
-       ondblclick="this.style.height='200px'; this.style.cursor='zoom-in';">
-  </div>
+![Screenshot](../attachments/img13.png)
   
   ---
