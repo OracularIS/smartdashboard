@@ -4,6 +4,7 @@
     - [Setup Guide](./User_Guide/setup_guide.md)
     - [Data Management](./User_Guide/create_dashboard.md)
     - [View Dashboard](./User_Guide/view_dashboard.md)
+    - [API Documetation](./User_Guide/api.md)
 - [Features](./features.md)
 - [Concepts](./concept.md)
 - [FAQ's](./faq.md)
