@@ -44,7 +44,7 @@ Deleting a dashboard will permanently remove all associated data files linked to
 
 3. A unique **Dashboard Key** will be generated.
 
-  ![Screenshot](../attachments/img18.png)
+   ![Screenshot](../attachments/img18.png)
 
   🔑 Keep the Dashboard Key secure, as it is required when uploading data to this dashboard.
 
@@ -190,4 +190,22 @@ To create your own setting:
   ![Screenshot](../attachments/img25.png)
 
 Your new setting will appear immediately in the list.
+
+## API Key 
+
+The API Key tab allows you to securely authenticate requests when uploading data to Smart Dashboard.
+
+  ![Screenshot](../attachments/api2.png)
+
+**Upload API Key**
+
+- Each tenant is assigned a unique API Key.
+- This key is required to authorize API requests for data uploads.
+- For security purposes, the key is partially hidden.
+
+⚠ **Important:**  
+If you rotate (regenerate) the API key, all previously generated keys will become invalid immediately.
+
+
+
 ---
