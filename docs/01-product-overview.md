@@ -18,7 +18,7 @@ You may have access to **multiple tenants** depending on your role.
 
 ### Dashboard
 
-A **dashboard** is a container that holds one or more datasets (Data Files). In the UI, a dashboard is selected from a dropdown.
+A **dashboard** is a container that holds one or more datasets (**data files**). In the UI, a dashboard is selected from a dropdown.
 
 ### Data File (Dataset)
 
@@ -46,7 +46,9 @@ Uploads from external systems use a **tenant-scoped API key**.
 - View dashboards and data visualizations
 - Create/edit/reorder dashboards
 - Add or delete datasets
-- Choose how a dataset should be displayed (chart or grid)
+- Choose how a dataset should be displayed (chart or grid/table)
+- Choose chart types per dataset (Line, Bar, Area, Pie, Table)
+- Use **Stacked** or **Clustered** bars for multi-series datasets
 - Manage tenant settings (key/value)
 - Generate/reveal/rotate tenant Upload API key
 - View API documentation and copy/paste integration examples

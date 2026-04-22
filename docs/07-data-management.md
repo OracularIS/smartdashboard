@@ -3,7 +3,7 @@
 The **Data Management** page is where you administer tenant content:
 
 - Dashboards
-- Data Files (datasets)
+- Data files (datasets)
 - Settings
 - Upload API Key
 
@@ -29,7 +29,7 @@ What you can do:
 
 ---
 
-## 7.2 Data Files tab
+## 7.2 Data files tab
 
 This tab shows all datasets in the tenant.
 
@@ -59,6 +59,11 @@ Capabilities:
 - Choose Data Type (pre-defined list or **Custom Type**)
 - Choose Default Display (chart or grid)
 - Choose Format: **XML** or **JSON**
+
+Default Display details:
+
+- **Chart**: renders as a visualization (Line/Bar/Area/Pie)
+- **Grid**: renders as a **Table** by default
 
 Notes:
 

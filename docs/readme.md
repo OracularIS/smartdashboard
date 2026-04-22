@@ -2,7 +2,7 @@
 
 Welcome to the **Smart Dashboard** documentation.
 
-This site is intended for **customers/end users**. It walks through the key screens and explains how to upload data using the built-in API examples.
+This site is intended for **customers and end users**. It walks through the key screens and explains how to upload data using the built-in API examples.
 
 ## Quick Start
 

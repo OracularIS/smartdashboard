@@ -1,7 +1,5 @@
 <!-- docs/_sidebar.md -->
-
 - [Home](./readme.md)
-
 - User Guide
   - [1) Product Overview](./01-product-overview.md)
   - [2) Getting Started](./02-getting-started.md)
@@ -13,9 +11,3 @@
   - [8) API Docs (Upload Integration)](./08-api-docs.md)
   - [9) Sharing & TV Mode](./09-sharing-and-tv-mode.md)
   - [10) Troubleshooting & FAQ](./10-troubleshooting-faq.md)
-
-
-
-
-
-

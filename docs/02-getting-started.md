@@ -16,7 +16,7 @@ See: [Tenant Selection](./04-tenant-selection.md)
 
 ## Step 3 — Open your dashboard
 
-Once inside a tenant, you can open the **Dashboard** page and pick a dashboard.
+Once inside a tenant, you can open the **Dashboards** page and pick a dashboard.
 
 See: [Dashboards Page](./06-dashboards-page.md)
 
@@ -25,7 +25,7 @@ See: [Dashboards Page](./06-dashboards-page.md)
 If your dashboards are empty, you can upload data in two ways:
 
 1. **Through your integration (recommended):** Use the Upload API.
-2. **Manually:** Paste XML or JSON in the Data Management screen.
+2. **Manually:** Paste XML or JSON in **Data Management → Add Data File**.
 
 See:
 
