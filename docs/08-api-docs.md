@@ -39,7 +39,7 @@ Get or rotate this key from **Data Management → API Key**.
 - **JSON** (recommended)
 - **XML** (legacy)
 
-Smart Dashboard does **not** directly connect to your database and does **not** pull data on a schedule.
+Smart Dashboard does **not** pull data on a schedule. Your systems are responsible for pushing updates.
 
 ## What the API expects (JSON)
 
@@ -59,8 +59,8 @@ The Upload APIs use headers to route and isolate your data.
 | `x-api-key` | Required | Tenant API key |
 | `X-Tenant-Id` | Required | Tenant ID (UUID) |
 | `X-Data-Type` | Required | Dataset category name (e.g., Sales, Inventory) |
-| `X-Dashboard-Id` | Either/Or | Target dashboard by GUID |
-| `X-Dashboard-Title` | Either/Or | Create/find dashboard by title |
+| `X-Dashboard-Id` | Required for updates | Target an existing dashboard by GUID (updates/replaces datasets in that dashboard). Do not send `X-Dashboard-Title` when using this. |
+| `X-Dashboard-Title` | Required for create | Create a new dashboard (or find by title within the tenant) when `X-Dashboard-Id` is not provided. Do not send `X-Dashboard-Id` when using this. |
 | `X-Display-Type` | Optional | Hint for initial UI rendering (e.g., grid/chart) |
 
 ### X-Display-Type values
@@ -85,6 +85,20 @@ curl -X POST "https://<your-app-domain>/api/upload-data" \
   -H "X-Data-Type: Sales" \
   -H "X-Tenant-Id: <tenant-uuid>" \
   -H "X-Dashboard-Id: <dashboard-uuid>" \
+  --data-raw '{"resultset": {"row": [{"Month": "March", "Sales": 18500}]}, "fieldOrder": ["Month", "Sales"]}'
+```
+
+### Example (create a new dashboard by title)
+
+Use this when you **do not** have a dashboard ID yet:
+
+```bash
+curl -X POST "https://<your-app-domain>/api/upload-data" \
+  -H "Content-Type: application/json" \
+  -H "x-api-key: <apikey>" \
+  -H "X-Data-Type: Sales" \
+  -H "X-Tenant-Id: <tenant-uuid>" \
+  -H "X-Dashboard-Title: Q4 Analytics" \
   --data-raw '{"resultset": {"row": [{"Month": "March", "Sales": 18500}]}, "fieldOrder": ["Month", "Sales"]}'
 ```
 

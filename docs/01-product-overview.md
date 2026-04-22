@@ -1,11 +1,16 @@
 # 1) Product Overview
 
-**Smart Dashboard** helps you visualize business/operational data as interactive charts and tables.
+**Smart Dashboard** is a lightweight KPI and operational dashboarding tool.
+
+It is a **push-based** system:
+
+- You push data from your systems (via API)
+- Smart Dashboard stores it per tenant and displays it as charts or tables
 
 It is designed for:
 
 - Teams that want an easy way to view dashboards without building custom UI.
-- Integrations that send periodic data updates (XML/JSON) from an external system.
+- Integrations that push periodic data updates (JSON recommended; XML supported for legacy).
 - Organizations that require **tenant isolation** (each tenant’s data is separated).
 
 ## Key Concepts

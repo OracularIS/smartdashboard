@@ -35,7 +35,7 @@ Supported ingestion formats:
 - **JSON** (recommended)
 - **XML** (legacy)
 
-We do **not** directly support uploading Excel/XLS or CSV files, and we do **not** directly connect to databases.
+We do **not** directly support uploading spreadsheet files (for example Excel/XLS) and we do **not** directly connect to databases.
 
 ## How often is data refreshed?
 
@@ -61,12 +61,9 @@ Your API key may be missing or invalid.
 
 ## I expected CSV/Excel uploads or a database connection
 
-Smart Dashboard does not directly connect to your database and does not ingest Excel/CSV files automatically.
+Smart Dashboard is a **push-based** system.
 
-Instead, push your data to the Upload API in:
-
-- **JSON** (recommended)
-- **XML** (legacy)
+Push your data to the Upload API in JSON (recommended) or XML (legacy).
 
 ## Who can view/rotate the API key?
 
