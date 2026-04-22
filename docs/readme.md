@@ -1,37 +1,27 @@
-# Overview
+# Smart Dashboard — Documentation
 
-## What is Smart Dashboard?
+Welcome to the **Smart Dashboard** documentation.
 
-Smart Dashboard is a web-based platform that helps organizations view, monitor, and analyze their data through interactive dashboards.
+This site is intended for **customers/end users**. It walks through the key screens and explains how to upload data using the built-in API examples.
 
-It allows users to:
+## Quick Start
 
-- Track performance  
-- Monitor key metrics (KPIs)  
-- Identify trends  
-- Make data-driven decisions  
+1. Sign in (SSO)
+2. Select your tenant (organization/workspace)
+3. Open your dashboards
+4. Upload data (via API or manual paste)
 
-## Problem Statement
+## Start here
 
-Organizations often face challenges such as:
+- [1) Product Overview](./01-product-overview.md)
+- [2) Getting Started](./02-getting-started.md)
+- [3) Login Screen](./03-login.md)
+- [4) Tenant Selection](./04-tenant-selection.md)
+- [5) Home Page](./05-home-page.md)
+- [6) Dashboards Page](./06-dashboards-page.md)
+- [7) Data Management](./07-data-management.md)
+- [8) API Docs (Upload Integration)](./08-api-docs.md)
+- [9) Sharing & TV Mode](./09-sharing-and-tv-mode.md)
+- [10) Troubleshooting & FAQ](./10-troubleshooting-faq.md)
 
-- Data scattered across multiple systems  
-- Difficulty tracking real-time performance  
-- Limited visibility into KPIs and trends  
-- Dependence on technical teams to generate reports  
-
-These challenges can slow down decision-making and reduce operational efficiency.
-
-## Solution
-
-Smart Dashboard solves these problems by:
- 
-- Providing real-time insights through interactive dashboards  
-- Making data easy to understand with visual charts and KPIs  
-- Allowing controlled access for different users and teams
-- Centralizing data into one unified platform   
-- Supporting multiple organizations or departments through secure tenant environments  
-
-This enables faster, smarter, and more confident decision-making.
-
----
+<!-- Screenshots are referenced inside the individual pages. -->
