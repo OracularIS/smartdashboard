@@ -25,26 +25,3 @@ This guide is written for **customers/end users** (not developers). It explains 
 8. [API Docs Page (Upload Integration)](./docs/08-api-docs.md)
 9. [Sharing & TV Mode](./docs/09-sharing-and-tv-mode.md)
 10. [Troubleshooting & FAQ](./docs/10-troubleshooting-faq.md)
-
----
-
-## Screenshot placeholders
-
-This documentation includes placeholders where your team can insert screenshots.
-
-Create this folder and add images using these filenames:
-
-```
-Documentaiton/smartdashboard/docs/images/
-  01-login.png
-  02-tenant-selection.png
-  03-home.png
-  04-dashboards.png
-  05-data-management.png
-  06-data-files.png
-  07-settings.png
-  08-api-key.png
-  09-api-docs.png
-```
-
-If you choose different names, update the image links in the docs.
