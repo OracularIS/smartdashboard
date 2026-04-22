@@ -11,6 +11,11 @@ This site is intended for **customers and end users**. It walks through the key 
 3. Open your dashboards
 4. Upload data (via API or manual paste)
 
+If you are new to Smart Dashboard, start with:
+
+- [1) Product Overview](./01-product-overview.md) (concepts and the push-based model)
+- [2) Getting Started](./02-getting-started.md) (first-time flow)
+
 ## Start here
 
 - [1) Product Overview](./01-product-overview.md)

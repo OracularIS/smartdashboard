@@ -11,3 +11,4 @@
   - [8) API Docs (Upload Integration)](./08-api-docs.md)
   - [9) Sharing & TV Mode](./09-sharing-and-tv-mode.md)
   - [10) Troubleshooting & FAQ](./10-troubleshooting-faq.md)
+  - [11) Settings Reference](./11-settings-reference.md)
