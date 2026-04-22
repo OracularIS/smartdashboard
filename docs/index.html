@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Smart Dashboard Documentation</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
+  <meta name="description" content="Smart Dashboard documentation">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
@@ -16,7 +16,8 @@
   <script>
     window.$docsify = {
       name: 'Smart Dashboard',
-      repo: 'OracularIS/smartdashboard',
+      repo: '',
+      logo: '_media/logo-bw.svg',
       homepage: 'readme.md',
       coverpage: true,
       search: 'auto', // default,
@@ -37,26 +38,11 @@
         // between multiple websites under the same domain
         namespace: 'autest',
       },
-      plugins: [
-        function(hook, vm) {
-          hook.doneEach(function() {
-               document.querySelectorAll('.sidebar-nav li').forEach(function(item) {
-              item.addEventListener('click', function(event) {
-                const target = event.target;
-                if (target.nodeName=='UL') {
-                event.stopPropagation();
-                }
-              });
-            });
-            document.body.addEventListener('click', function(event) {
-              const sidebar = document.querySelector('.sidebar-nav');
-              if (sidebar && !sidebar.contains(event.target)) {
-                event.stopPropagation();
-              }
-            });
-          });
-        }
-      ]
+      // Prevent Docsify from trying to load missing _sidebar.md in nested legacy folders
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md',
+      },
+      themeColor: '#111111'
     };
   </script>
   <!-- Docsify v4 -->
