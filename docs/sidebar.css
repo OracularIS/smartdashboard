@@ -55,3 +55,9 @@
   image-rendering: auto;
   -webkit-font-smoothing: antialiased;
 }
+
+/* Smaller screenshots (used on Getting Started page) */
+.markdown-section img.doc-screenshot {
+  max-width: min(560px, 100%);
+  max-height: 52vh;
+}
