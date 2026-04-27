@@ -1,4 +1,4 @@
-# 6) Dashboards Page
+# Dashboards
 
 The Dashboards page displays datasets (data files) as **charts** or a **grid (table)**.
 

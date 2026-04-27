@@ -1,4 +1,4 @@
-# 8) API Docs Page (Upload Integration)
+# API Integration (Upload API)
 
 Smart Dashboard includes an **API Docs** screen inside the app.
 
@@ -24,6 +24,16 @@ It provides ready-to-copy examples and explains which headers to send.
 
 > Important: Smart Dashboard is a **push-based** system. Any system that can make HTTP requests can push data into dashboards.
 
+## What can push data?
+
+Any system capable of making HTTP requests can push data, for example:
+
+- Integration services / middleware
+- Scheduled jobs (cron, CI/CD, serverless)
+- Backend applications
+
+Smart Dashboard does not require a specific platform—only the ability to call the Upload API.
+
 ## Authentication
 
 Uploads authenticate using a tenant-scoped API key:
@@ -33,6 +43,12 @@ x-api-key: <your-tenant-api-key>
 ```
 
 Get or rotate this key from **Data Management → API Key**.
+
+### Where to find the API key in the UI
+
+Open **Data Management → API Key**.
+
+![API key](./images/08-api-key.png)
 
 ## Supported ingestion formats
 

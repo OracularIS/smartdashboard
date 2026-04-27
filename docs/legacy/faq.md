@@ -7,10 +7,13 @@ Access is role-based. Admins control user permissions per tenant or environment.
 Yes! The platform supports a completely no-code interface for dashboard creation and management.
 
 ### 3. Which data formats are supported?
-Supported formats include **CSV**, **Excel**, and **database connections** (via API or SQL).
+Smart Dashboard is a **push-based** system.
+
+- **JSON** (recommended)
+- **XML** (legacy)
 
 ### 4. How often is data refreshed?
-You can configure manual or automatic refresh intervals based on your data source.
+Because this is a **push system**, the refresh frequency depends on how frequently your system pushes data.
 
 ### 5. Can I share dashboards externally?
 Yes. Dashboards can be shared via secure links or TV View for public display.

@@ -1,4 +1,4 @@
-# 10) Troubleshooting & FAQ
+# Troubleshooting & FAQ
 
 ## I signed in, but I don’t see any tenants
 
@@ -20,9 +20,9 @@ You don’t have permission for that tenant. Choose another tenant you have acce
 
 Dashboards only show data after datasets are uploaded.
 
-- Confirm your integration is posting to `/api/upload-data` or `/api/upload-xml`.
-- Confirm headers include the correct `X-Tenant-Id` and dashboard selection.
-- Try refreshing the dashboard.
+- If you manage the integration, push a fresh upload (see: [API Integration](./08-api-docs.md)).
+- If you don’t manage the integration, ask your integration owner to push data for this tenant/dashboard.
+- Click **Refresh** to reload the latest stored data.
 
 Note: Smart Dashboard is **push-based**. If you have not uploaded data yet, the dashboard will be empty.
 
@@ -35,7 +35,7 @@ Supported ingestion formats:
 - **JSON** (recommended)
 - **XML** (legacy)
 
-We do **not** directly support uploading spreadsheet files (for example Excel/XLS) and we do **not** directly connect to databases.
+This is a **push system**: you push data via API and Smart Dashboard displays it.
 
 ## How often is data refreshed?
 
@@ -49,21 +49,18 @@ In the UI you can use **Refresh** to reload the latest stored data.
 
 Your API key may be missing or invalid.
 
-- Confirm you are sending `x-api-key`.
-- If the key was rotated, update your integration secret.
+- Make sure your integration is using the correct API key.
+- If the key was rotated, update it in your integration secrets.
+
+See: [API Integration (Upload API)](./08-api-docs.md)
 
 ## Upload succeeds but data is not visible
 
-- Confirm the dataset was uploaded to the correct dashboard (by ID or title).
-- Confirm `X-Data-Type` matches what you expect.
-- If you want a dataset to open as a table by default, send `X-Display-Type: grid`.
+- Make sure you’re uploading to the correct tenant and dashboard.
+- Make sure you’re using the intended dataset category (data type).
 - Refresh the dashboard page.
 
-## I expected CSV/Excel uploads or a database connection
-
-Smart Dashboard is a **push-based** system.
-
-Push your data to the Upload API in JSON (recommended) or XML (legacy).
+See: [API Integration (Upload API)](./08-api-docs.md)
 
 ## Who can view/rotate the API key?
 

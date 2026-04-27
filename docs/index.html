@@ -22,7 +22,9 @@
       coverpage: true,
       search: 'auto', // default,
       loadSidebar: true,
-      subMaxLevel: 4,
+      // Keep the side-nav readable (avoid deep nesting)
+      // Use _sidebar.md for navigation and avoid adding heading-based nesting.
+      subMaxLevel: 0,
       auto2top: true,
        // complete configuration parameters
       search: {

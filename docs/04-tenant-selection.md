@@ -1,4 +1,4 @@
-# 4) Tenant Selection
+# Tenant Selection
 
 After sign-in, you choose which tenant (organization/workspace) you want to access.
 

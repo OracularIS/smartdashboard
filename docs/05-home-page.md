@@ -1,4 +1,4 @@
-# 5) Home Page (Tenant Home)
+# Home Page (Tenant Home)
 
 After selecting a tenant, you land on the tenant **Home** page.
 

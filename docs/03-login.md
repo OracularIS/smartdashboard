@@ -1,4 +1,4 @@
-# 3) Login Screen
+# Login
 
 The login screen signs you into Smart Dashboard.
 

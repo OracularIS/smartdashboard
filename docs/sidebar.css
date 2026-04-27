@@ -36,3 +36,22 @@
 .search {
   padding: 0 12px;
 }
+
+/* --- Content rendering tweaks --- */
+
+/* Screenshots in the docs can become too large; keep them readable.
+   Users can still click to open in a new tab if needed. */
+.markdown-section img {
+  /* Don't force stretching (prevents blur on some screenshots) */
+  width: auto;
+  height: auto;
+  max-width: min(900px, 100%);
+  max-height: 65vh;
+
+  display: block;
+  margin: 12px auto;
+
+  /* Prefer crisp downscaling when supported */
+  image-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
