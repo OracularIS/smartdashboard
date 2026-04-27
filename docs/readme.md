@@ -1,32 +1,47 @@
-# Smart Dashboard — Documentation
+# Smart Dashboard
 
-Welcome to the **Smart Dashboard** documentation.
+## Introduction
 
-This site is intended for **customers and end users**. It walks through the key screens and explains how to upload data using the built-in API examples.
+Welcome to the **Smart Dashboard** customer documentation.
 
-## Quick Start
+This guide is written for **customers and end users**. It explains the main screens, how data appears in dashboards, and how to upload data using the built-in API examples.
 
-1. Sign in (SSO)
-2. Select your tenant (organization/workspace)
-3. Open your dashboards
-4. Upload data (via API or manual paste)
+## Purpose (why we built Smart Dashboard)
 
-If you are new to Smart Dashboard, start with:
+Smart Dashboard was built to provide a **fast, lightweight dashboarding / KPI tool** for operational teams.
 
-- [1) Product Overview](./01-product-overview.md) (concepts and the push-based model)
-- [2) Getting Started](./02-getting-started.md) (first-time flow)
+Instead of building and maintaining custom UIs for each dataset, you **push your data** and Smart Dashboard **renders it** as charts or tables—securely, per tenant.
+
+## How Smart Dashboard works
+
+Smart Dashboard is a **push-based** system:
+
+- Your systems **push** data (JSON recommended; XML supported for legacy)
+- Smart Dashboard stores it **per tenant**
+- The UI renders it as charts or tables
+
+## Typical first-time journey
+
+- Sign in (SSO)
+- Select your tenant (organization/workspace)
+- Open your dashboards
+- Upload data (via API integration, or manual paste for testing)
 
 ## Start here
 
-- [1) Product Overview](./01-product-overview.md)
-- [2) Getting Started](./02-getting-started.md)
-- [3) Login Screen](./03-login.md)
-- [4) Tenant Selection](./04-tenant-selection.md)
-- [5) Home Page](./05-home-page.md)
-- [6) Dashboards Page](./06-dashboards-page.md)
-- [7) Data Management](./07-data-management.md)
-- [8) API Docs (Upload Integration)](./08-api-docs.md)
-- [9) Sharing & TV Mode](./09-sharing-and-tv-mode.md)
-- [10) Troubleshooting & FAQ](./10-troubleshooting-faq.md)
+- [Product Overview](./01-product-overview.md)
+- [Getting Started](./02-getting-started.md)
 
-<!-- Screenshots are referenced inside the individual pages. -->
+## Browse by screen / topic
+
+- [Login](./03-login.md)
+- [Tenant Selection](./04-tenant-selection.md)
+- [Home Page](./05-home-page.md)
+- [Dashboards](./06-dashboards-page.md)
+- [Data Management](./07-data-management.md)
+- [API Integration (Upload API)](./08-api-docs.md)
+- [Sharing & TV Mode](./09-sharing-and-tv-mode.md)
+- [Troubleshooting & FAQ](./10-troubleshooting-faq.md)
+- [Settings Reference](./11-settings-reference.md)
+
+<!-- Screenshots are referenced inside the individual pages only. -->

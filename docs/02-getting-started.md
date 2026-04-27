@@ -1,33 +1,45 @@
-# 2) Getting Started
+# Getting Started
 
-This section describes the typical first-time flow.
+This page describes the typical first-time flow for a new user.
 
-## Step 1 — Sign in
+Use these pages in order:
+
+1. [Login](./03-login.md)
+2. [Tenant Selection](./04-tenant-selection.md)
+3. [Home Page](./05-home-page.md)
+4. [Dashboards](./06-dashboards-page.md)
+
+If you need to upload data:
+
+- [API Integration (Upload API)](./08-api-docs.md) (recommended)
+- [Data Management](./07-data-management.md) (manual paste for testing)
+
+## Sign in
 
 Use your company’s Single Sign-On (SSO) to sign in.
 
-See: [Login Screen](./03-login.md)
+See: [Login](./03-login.md)
 
-## Step 2 — Select a tenant
+## Select a tenant
 
 After signing in, you’ll be asked to select a tenant (organization/workspace).
 
 See: [Tenant Selection](./04-tenant-selection.md)
 
-## Step 3 — Open your dashboard
+## Open your dashboards
 
-Once inside a tenant, you can open the **Dashboards** page and pick a dashboard.
+Once inside a tenant, open the **Dashboards** page and select a dashboard.
 
-See: [Dashboards Page](./06-dashboards-page.md)
+See: [Dashboards](./06-dashboards-page.md)
 
-## Step 4 — Upload data (optional)
+## Upload data (optional)
 
-If your dashboards are empty, you can upload data in two ways:
+If your dashboards are empty, upload data in one of these ways:
 
-1. **Through your integration (recommended):** Use the Upload API.
-2. **Manually:** Paste XML or JSON in **Data Management → Add Data File**.
+1. **API integration (recommended):** Use the Upload API.
+2. **Manual upload (for testing):** Paste XML or JSON in **Data Management → Add Data File**.
 
 See:
 
 - [Data Management](./07-data-management.md)
-- [API Docs Page](./08-api-docs.md)
+- [API Integration (Upload API)](./08-api-docs.md)

@@ -1,4 +1,4 @@
-# 7) Data Management
+s# Data Management
 
 The **Data Management** page is where you administer tenant content:
 
@@ -15,7 +15,7 @@ You will see tabs at the top.
 
 ---
 
-## 7.1 Dashboard tab
+## Dashboard tab
 
 Use this tab to manage dashboards.
 
@@ -29,7 +29,7 @@ What you can do:
 
 ---
 
-## 7.2 Data files tab
+## Data files tab
 
 This tab shows all datasets in the tenant.
 
@@ -49,7 +49,7 @@ Uploads typically **replace** the dataset of the same Data Type within the same 
 
 ---
 
-## 7.3 Add Data File (manual paste)
+## Add Data File (manual paste)
 
 You can manually paste data into the UI.
 
@@ -73,11 +73,9 @@ Notes:
 
 ---
 
-## 7.4 Settings tab
+## Settings tab
 
 Settings are tenant-specific key/value entries.
-
-![Settings](./images/07-settings.png)
 
 What you can do:
 
@@ -89,11 +87,9 @@ Use cases vary by customer configuration.
 
 ---
 
-## 7.5 API Key tab
+## API Key tab
 
 This tab manages the **Upload API key** used for machine-to-machine uploads.
-
-![API key](./images/08-api-key.png)
 
 What you can do:
 

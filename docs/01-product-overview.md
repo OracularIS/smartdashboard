@@ -1,6 +1,7 @@
-# 1) Product Overview
 
-**Smart Dashboard** is a lightweight KPI and operational dashboarding tool.
+# Product Overview
+
+**Smart Dashboard** is a lightweight dashboarding / KPI tool.
 
 It is a **push-based** system:
 
@@ -12,6 +13,18 @@ It is designed for:
 - Teams that want an easy way to view dashboards without building custom UI.
 - Integrations that push periodic data updates (JSON recommended; XML supported for legacy).
 - Organizations that require **tenant isolation** (each tenant’s data is separated).
+
+## How data gets into Smart Dashboard
+
+Smart Dashboard is a **push system**:
+
+- Your organization pushes data into Smart Dashboard using the Upload APIs.
+- Smart Dashboard stores it per tenant and displays it.
+
+This design keeps integrations flexible:
+
+- If your data lives in another system (including internal apps, reporting pipelines, or exports), your integration can transform it and push updates whenever you need.
+- The dashboard updates in the UI when new data is pushed (and when users refresh their view).
 
 ## Key Concepts
 
@@ -42,6 +55,20 @@ Uploads from external systems use a **tenant-scoped API key**.
 
 - Only authorized admin roles can view/rotate this key.
 - Rotating the key revokes the old key immediately.
+
+---
+
+## How the pages connect (recommended reading)
+
+If you’re reading this guide end-to-end, the typical flow is:
+
+1. [Getting Started](./02-getting-started.md)
+2. [Login](./03-login.md)
+3. [Tenant Selection](./04-tenant-selection.md)
+4. [Home Page](./05-home-page.md)
+5. [Dashboards](./06-dashboards-page.md)
+6. (Admin) [Data Management](./07-data-management.md)
+7. (Integration) [API Integration (Upload API)](./08-api-docs.md)
 
 ---
 

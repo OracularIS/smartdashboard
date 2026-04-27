@@ -1,14 +1,30 @@
 <!-- docs/_sidebar.md -->
 - [Home](./readme.md)
-- User Guide
-  - [1) Product Overview](./01-product-overview.md)
-  - [2) Getting Started](./02-getting-started.md)
-  - [3) Login Screen](./03-login.md)
-  - [4) Tenant Selection](./04-tenant-selection.md)
-  - [5) Home Page](./05-home-page.md)
-  - [6) Dashboards Page](./06-dashboards-page.md)
-  - [7) Data Management](./07-data-management.md)
-  - [8) API Docs (Upload Integration)](./08-api-docs.md)
-  - [9) Sharing & TV Mode](./09-sharing-and-tv-mode.md)
-  - [10) Troubleshooting & FAQ](./10-troubleshooting-faq.md)
-  - [11) Settings Reference](./11-settings-reference.md)
+- [Why Smart Dashboard?](./01-product-overview.md)
+
+- [Getting Started](./02-getting-started.md)
+  - [Login](./03-login.md)
+  - [Tenant Selection](./04-tenant-selection.md)
+  - [Home Page](./05-home-page.md)
+  - [Dashboards](./06-dashboards-page.md)
+
+- [Managing dashboards & data](./07-data-management.md)
+  - [Dashboards tab](./07-data-management.md#dashboard-tab)
+  - [Data files tab](./07-data-management.md#data-files-tab)
+  - [Add Data File (manual)](./07-data-management.md#add-data-file-manual-paste)
+  - [API Key tab](./07-data-management.md#api-key-tab)
+
+- [Settings](./11-settings-reference.md)
+  - [Dashboard-Title](./11-settings-reference.md#dashboard-title)
+  - [allow_public_sharing](./11-settings-reference.md#allow_public_sharing)
+
+- [Sharing & TV Mode](./09-sharing-and-tv-mode.md)
+  - [Public sharing](./09-sharing-and-tv-mode.md#public-sharing-read-only)
+  - [TV Mode](./09-sharing-and-tv-mode.md#tv-mode)
+
+- [Upload API (Integration)](./08-api-docs.md)
+  - [Authentication](./08-api-docs.md#authentication)
+  - [Required headers](./08-api-docs.md#required-headers)
+  - [Examples](./08-api-docs.md#example-curl-json)
+
+- [Troubleshooting & FAQ](./10-troubleshooting-faq.md)

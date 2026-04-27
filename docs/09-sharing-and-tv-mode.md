@@ -1,4 +1,4 @@
-# 9) Sharing & TV Mode
+# Sharing & TV Mode
 
 Smart Dashboard supports sharing dashboards via a public link and viewing charts in TV mode.
 

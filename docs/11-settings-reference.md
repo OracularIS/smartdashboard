@@ -1,4 +1,4 @@
-# 11) Settings Reference
+# Settings Reference
 
 This page explains the **tenant settings** that affect Smart Dashboard behavior.
 
@@ -7,6 +7,19 @@ You can manage settings in **Data Management → Settings**.
 > Settings are **tenant-specific**. Changing a setting affects only the currently selected tenant.
 
 > Note: TV mode also has **viewer settings** (slide duration, refresh interval, etc.). Those are not tenant settings and are saved locally in your browser. See: [Sharing & TV Mode](./09-sharing-and-tv-mode.md).
+
+## Where to manage settings
+
+Open **Data Management → Settings**.
+
+![Settings](./images/07-settings.png)
+
+## Recommended initial setup
+
+For most tenants, these are the first settings to review:
+
+1. **Dashboard-Title**: Controls the default title used in parts of the UI (for example TV mode headers).
+2. **allow_public_sharing**: Controls whether users can generate public (read-only) share links.
 
 ## allow_public_sharing
 
@@ -32,6 +45,13 @@ Notes:
 Recommended value:
 
 - A short label like `Dashboard`, `KPI Dashboard`, or your organization name.
+
+### Default behavior (from the application)
+
+For new tenants, the application auto-provisions:
+
+- `allow_public_sharing = false`
+- `Dashboard-Title = Dashboard` (only if neither `Dashboard-Title` nor the legacy `dashboard-title` exists)
 
 ## Other settings
 
