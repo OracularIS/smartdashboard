@@ -40,6 +40,7 @@ Smart Dashboard is a **push-based** system:
 - [Dashboards](./06-dashboards-page.md)
 - [Data Management](./07-data-management.md)
 - [API Integration (Upload API)](./08-api-docs.md)
+- [BY Portal Integration](./12-by-portal-integration.md)
 - [Sharing & TV Mode](./09-sharing-and-tv-mode.md)
 - [Troubleshooting & FAQ](./10-troubleshooting-faq.md)
 - [Settings Reference](./11-settings-reference.md)

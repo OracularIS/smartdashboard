@@ -27,4 +27,6 @@
   - [Required headers](./08-api-docs.md#required-headers)
   - [Examples](./08-api-docs.md#example-curl-json)
 
+- [BY Portal Integration](./12-by-portal-integration.md)
+
 - [Troubleshooting & FAQ](./10-troubleshooting-faq.md)

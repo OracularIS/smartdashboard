@@ -40,7 +40,7 @@ After submission, the page will show your approval status.
 
 <!-- MAINTAINER NOTE: Replace these placeholder images with real screenshots using the same filenames. -->
 
-![Request organization button page](./images/request-org-button-page.png)
+![Request organization button page](./images/18-request-org-button-page.png)
 
 ![Request organization form](./images/13-request-org-form.png)
 
